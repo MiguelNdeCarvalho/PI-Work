@@ -36,13 +36,17 @@ func toBinary(n int) int {
 
 }
 
-func reverse(hand []string) []string {
+func reverse(hand [4]string) [4]string {
+
+	var save string
 	
 	for i := 0; i < len(hand)/2; i++ {
 		
 		j := len(hand) - i - 1
 		
-		hand[i], hand[j] = hand[j], hand[i]
+		save = hand[i]
+		hand[i]= hand[j]
+		hand[j] = save
 	}
 
 	return hand
@@ -51,7 +55,7 @@ func reverse(hand []string) []string {
 func main(){
 
 	var user,bin int
-	var shake []string
+	var shake [4]string
 	var i int = 0
 	
 	fmt.Print("Insira o 'HandShake': ")
@@ -60,37 +64,37 @@ func main(){
 	fmt.Print("Binario:")
 	fmt.Println(bin)
 	
-    if bin%2!=0{
+    if bin%10!=0{
 
 		shake[i]=",wink,"
 		i++
 
 	}
 
-	if bin>=10{
+	if bin%100>=10{
 
 		shake[i]=",double wink,"
 		i++
 
 	}
 
-	if bin>=100{
+	if bin%1000>=100{
 		
 		shake[i]=",close your eyes,"
 		i++
 			
 	}
 
-	if bin>=1000{
+	if bin%10000>=1000{
 		
 		shake[i]=",jump,"
 		i++
 			
 	}
 
-	if bin>=10000{
+	if bin%100000>=10000{
 
-	    //reverse(shake) //falta esta parte
+	    shake=reverse(shake) //falta esta parte
 			
 	}
 
