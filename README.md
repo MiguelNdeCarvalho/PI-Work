@@ -5,7 +5,7 @@
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
 |Allergies           |[Here](./Allergies)           |:x:                   |
-|Matrix              |[Here](./Matrix)              |:x:                   |
+|Matrix              |[Here](./Matrix)              |:heavy_check_mark:    |
 |Pascal Triangle     |[Here](./Pascal_Triangle)     |:heavy_check_mark:    |
 |Perfect Numbers     |[Here](./Perfect_Numbers)     |:x:                   |
 |Pythagorean Triplet |[Here](./Pythagorean_Triplet) |:x:                   |
