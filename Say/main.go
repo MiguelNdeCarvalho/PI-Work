@@ -107,5 +107,6 @@ func main() {
 
 	numRange(n)
 
-	readIt(toWrite(n)) //Tranform the numbers into string and say it
+	fmt.Println(toWrite(n)) //Need to print instead of speaking the number
+	//readIt(toWrite(n)) //Tranform the numbers into string and say it
 }
