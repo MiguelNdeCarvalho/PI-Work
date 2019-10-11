@@ -4,7 +4,7 @@ import "fmt"
 
 func generate(matrix [8][8]string) {
 	for r := 0; r < 8; r++ {
-		for c := 0; r < 8; c++ {
+		for c := 0; c < 8; c++ {
 			matrix[r][c] = "_"
 		}
 	}
@@ -20,7 +20,7 @@ func set(color string, matrix [8][8]string, x int, y int) {
 
 func print(matrix [8][8]string) {
 	for r := 0; r < 8; r++ {
-		for c := 0; r < 8; c++ {
+		for c := 0; c < 8; c++ {
 			fmt.Println(matrix[r][c])
 		}
 	}
