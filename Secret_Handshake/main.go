@@ -36,7 +36,7 @@ func toBinary(n int) int {
 
 }
 
-func reverse(hand [4]string) [4]string {
+func reverse(hand []string) []string {
 
 	var save string
 	
@@ -55,7 +55,7 @@ func reverse(hand [4]string) [4]string {
 func main(){
 
 	var user,bin int
-	var shake [4]string
+	shake := make([]string,4)
 	var i int = 0
 	
 	fmt.Print("Insira o 'HandShake': ")
