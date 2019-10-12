@@ -13,7 +13,6 @@ type alergia struct {
 
 func nova_alergia(nome_a string, pontuacao float64) *alergia {
 	p := alergia{nome: nome_a, pontos: pontuacao}
-    //p.pontos = pontuacao
     return &p
 }
 
@@ -56,13 +55,9 @@ func main(){
 
 		//MACUMBAS PARA FAZER OS EXPOENTES CERTOS/////////////////
 		var inteiro = int(expoente)
-
 		var inteiro_f = float64(inteiro)
-
-
 		var v_alergia = math.Pow(2,inteiro_f)
 		///////////////////////////////////////////////////////////
-
 
 		for j:=0;j<len(lista);j++{
 
@@ -70,9 +65,7 @@ func main(){
 				fmt.Printf("%s\n",lista[j].nome)
 			}
 		}
-
+		
 		temp = temp - v_alergia
-
 	}
-
 }
