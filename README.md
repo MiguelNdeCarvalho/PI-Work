@@ -4,7 +4,7 @@
 
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
-|Allergies           |[Here](./Allergies)           |:x:                   |
+|Allergies           |[Here](./Allergies)           |:heavy_check_mark:    |
 |Matrix              |[Here](./Matrix)              |:heavy_check_mark:    |
 |Pascal Triangle     |[Here](./Pascal_Triangle)     |:heavy_check_mark:    |
 |Perfect Numbers     |[Here](./Perfect_Numbers)     |:x:                   |
