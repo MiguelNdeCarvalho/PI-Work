@@ -35,9 +35,9 @@ func check(lW, cW, lB, cB int) {
 	c := cW - cB
 	l := lW - lB
 	if lW == lB || cW == cB || c == l || c*-1 == l || c == l*-1 {
-		fmt.Println("works")
+		fmt.Println("Queens can attack each other!")
 	} else {
-		fmt.Println("dont work")
+		fmt.Println("Queens can't attack each other!")
 	}
 }
 
@@ -55,18 +55,12 @@ func main() {
 	//generate(matrix)
 
 	fmt.Println("Insert the Coordinates of the White Queen")
-	fmt.Scanf("%d", &lW)
-	fmt.Scanf("%d", &cW)
-
-	matrix[lW-1][cW-1] = "W"
-
-	/* set(white, matrix, lW, cW) */
+	fmt.Scanf("%d,%d", &lW, &cW)
+	matrix[lW-1][cW-1] = "W" //Set the White Queen on the Matrix
 
 	fmt.Println("Insert the Coordinates of the Black Queen")
-	fmt.Scanf("%d", &lB)
-	fmt.Scanf("%d", &cB)
-	matrix[lB-1][cB-1] = "B"
-	/* 	set(black, matrix, lB, cB) */
+	fmt.Scanf("%d,%d", &lB, &cB)
+	matrix[lB-1][cB-1] = "B" //Set the Black Queen on the Matrix
 	print(matrix)
 	check(lW, cW, lB, cB)
 }
