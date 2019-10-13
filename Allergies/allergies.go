@@ -10,12 +10,11 @@ type alergia struct {
     pontos  float64
 }
 
-
+/*
 func nova_alergia(nome_a string, pontuacao float64) *alergia {
-	p := alergia{nome: nome_a, pontos: pontuacao}
-    return &p
+	return &alergia{nome: nome_a, pontos: pontuacao}
 }
-
+*/
 
 func main(){
 
@@ -23,6 +22,17 @@ func main(){
 	var lista []*alergia   //array de struct 
 
 	////valores dos testes no array
+	lista = append(lista,&alergia{nome: "eggs", pontos: 1})
+	lista = append(lista,&alergia{nome: "peanuts", pontos: 2})
+	lista = append(lista,&alergia{nome: "shellfish", pontos: 4})
+	lista = append(lista,&alergia{nome: "strawberries", pontos: 8})
+	lista = append(lista,&alergia{nome: "tomatoes", pontos: 16})
+	lista = append(lista,&alergia{nome: "chocolate", pontos: 32})
+	lista = append(lista,&alergia{nome: "pollen", pontos: 64})
+	
+
+	/*    ///OUTRAS MANEIRAS DE COLOCAR VALORES NO  ARRAY
+	
 	lista = append(lista,nova_alergia("eggs",1))
 	lista = append(lista,nova_alergia("peanuts",2))
 	lista = append(lista,nova_alergia("shellfish",4))
@@ -30,7 +40,8 @@ func main(){
 	lista = append(lista,nova_alergia("tomatoes",16))
 	lista = append(lista,nova_alergia("chocolate",32))
 	lista = append(lista,nova_alergia("pollen",64))
-	
+	*/
+
 	/////////////////TESTE//////////////////////////////
 	/*
 	for i:=0;i<len(lista);i++{
