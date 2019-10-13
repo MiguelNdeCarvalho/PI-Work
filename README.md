@@ -1,6 +1,14 @@
 # PI-Work
+Here you can find the progress of the **PI** project.
 
-## First Evalution
+Made by:
+  
+- João Pereira(**42864**)
+- Marco Figueiredo (**37724**)
+- Miguel de Carvalho (**43108**)
+- Rui Miguel (**37617**)
+
+## First Evalution at 40%
 
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
