@@ -1,21 +1,17 @@
-# Pythagorean Triplet
+# Sum Of Multiples
 
-A Pythagorean triplet is a set of three natural numbers, {a, b, c}, for
-which,
+Given a number, find the sum of all the unique multiples of particular numbers up to
+but not including that number.
 
-```text
-a**2 + b**2 = c**2
-```
+If we list all the natural numbers below 20 that are multiples of 3 or 5,
+we get 3, 5, 6, 9, 10, 12, 15, and 18.
 
-For example,
+The sum of these multiples is 78.
 
-```text
-3**2 + 4**2 = 9 + 16 = 25 = 5**2.
-```
+## Coding the solution
 
-There exists exactly one Pythagorean triplet for which a + b + c = 1000.
-
-Find the product a * b * c.
+Look for a stub file having the name sum_of_multiples.go
+and place your solution code in that file.
 
 ## Running the tests
 
@@ -36,7 +32,7 @@ you're having trouble, please visit the exercism.io [Go language page](http://ex
 
 ## Source
 
-Problem 9 at Project Euler [http://projecteuler.net/problem=9](http://projecteuler.net/problem=9)
+A variation on Problem 1 at Project Euler [http://projecteuler.net/problem=1](http://projecteuler.net/problem=1)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
