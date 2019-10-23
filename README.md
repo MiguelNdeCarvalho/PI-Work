@@ -21,3 +21,14 @@ Made by:
 |Saddle Points       |[Here](./Saddle_Points)       |:heavy_check_mark:    |
 |Say                 |[Here](./Say)                 |:heavy_check_mark:    |
 |Secret_Handshake    |[Here](./Secret_Handshake)    |:heavy_check_mark:    |
+
+
+## Second Evalution at 60%
+
+|Name                |Location                      |Status                |
+|---                 |---                           |---                   |
+|Book Store          |[Here](./book-store)          |:x:                   |
+|Simples Linked List |[Here](./simple-linked-list)  |:x:                   |
+
+
+
