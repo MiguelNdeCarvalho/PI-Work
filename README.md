@@ -28,7 +28,7 @@ Made by:
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
 |Book Store          |[Here](./book-store)          |:x:                   |
-|Simples Linked List |[Here](./simple-linked-list)  |:x:                   |
+|Simples Linked List |[Here](./simple-linked-list)  |:heavy_check_mark:    |
 
 
 
