@@ -12,23 +12,23 @@ Made by:
 
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
-|Allergies           |[Here](./Allergies)           |:heavy_check_mark:    |
-|Matrix              |[Here](./Matrix)              |:heavy_check_mark:    |
-|Pascal Triangle     |[Here](./Pascal_Triangle)     |:heavy_check_mark:    |
-|Perfect Numbers     |[Here](./Perfect_Numbers)     |:heavy_check_mark:    |
-|Sum_Multiples       |[Here](./Sum_Multiples)       |:heavy_check_mark:    |
-|Queen Attack        |[Here](./Queen_Attack)        |:heavy_check_mark:    |
-|Saddle Points       |[Here](./Saddle_Points)       |:heavy_check_mark:    |
-|Say                 |[Here](./Say)                 |:heavy_check_mark:    |
-|Secret_Handshake    |[Here](./Secret_Handshake)    |:heavy_check_mark:    |
+|Allergies           |[Here](./1ºParte/Allergies)           |:heavy_check_mark:    |
+|Matrix              |[Here](./1ºParte/Matrix)              |:heavy_check_mark:    |
+|Pascal Triangle     |[Here](./1ºParte/Pascal_Triangle)     |:heavy_check_mark:    |
+|Perfect Numbers     |[Here](./1ºParte/Perfect_Numbers)     |:heavy_check_mark:    |
+|Sum_Multiples       |[Here](./1ºParte/Sum_Multiples)       |:heavy_check_mark:    |
+|Queen Attack        |[Here](./1ºParte/Queen_Attack)        |:heavy_check_mark:    |
+|Saddle Points       |[Here](./1ºParte/Saddle_Points)       |:heavy_check_mark:    |
+|Say                 |[Here](./1ºParte/Say)                 |:heavy_check_mark:    |
+|Secret_Handshake    |[Here](./1ºParte/Secret_Handshake)    |:heavy_check_mark:    |
 
 
 ## Second Evalution at 60%
 
 |Name                |Location                      |Status                |
 |---                 |---                           |---                   |
-|Book Store          |[Here](./book-store)          |:x:                   |
-|Simples Linked List |[Here](./simple-linked-list)  |:heavy_check_mark:    |
+|Book Store          |[Here](./2ºParte/book-store)          |:x:                   |
+|Simples Linked List |[Here](./2ºParte/simple-linked-list)  |:heavy_check_mark:    |
 
 
 
