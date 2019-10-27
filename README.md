@@ -1,4 +1,5 @@
 # PI-Work
+
 Here you can find the progress of the **PI** project.
 
 Made by:
@@ -10,25 +11,21 @@ Made by:
 
 ## First Evalution at 40%
 
-|Name                |Location                      |Status                |
-|---                 |---                           |---                   |
-|Allergies           |[Here](./1ºParte/Allergies)           |:heavy_check_mark:    |
-|Matrix              |[Here](./1ºParte/Matrix)              |:heavy_check_mark:    |
-|Pascal Triangle     |[Here](./1ºParte/Pascal_Triangle)     |:heavy_check_mark:    |
-|Perfect Numbers     |[Here](./1ºParte/Perfect_Numbers)     |:heavy_check_mark:    |
-|Sum_Multiples       |[Here](./1ºParte/Sum_Multiples)       |:heavy_check_mark:    |
-|Queen Attack        |[Here](./1ºParte/Queen_Attack)        |:heavy_check_mark:    |
-|Saddle Points       |[Here](./1ºParte/Saddle_Points)       |:heavy_check_mark:    |
-|Say                 |[Here](./1ºParte/Say)                 |:heavy_check_mark:    |
-|Secret_Handshake    |[Here](./1ºParte/Secret_Handshake)    |:heavy_check_mark:    |
-
+|Name                |Location                             |Status                |
+|---                 |---                                  |---                   |
+|Allergies           |[Here](./1st_ev/Allergies)           |:heavy_check_mark:    |
+|Matrix              |[Here](./1st_ev/Matrix)              |:heavy_check_mark:    |
+|Pascal Triangle     |[Here](./1st_ev/Pascal_Triangle)     |:heavy_check_mark:    |
+|Perfect Numbers     |[Here](./1st_ev/Perfect_Numbers)     |:heavy_check_mark:    |
+|Sum_Multiples       |[Here](./1st_ev/Sum_Multiples)       |:heavy_check_mark:    |
+|Queen Attack        |[Here](./1st_ev/Queen_Attack)        |:heavy_check_mark:    |
+|Saddle Points       |[Here](./1st_ev/Saddle_Points)       |:heavy_check_mark:    |
+|Say                 |[Here](./1st_ev/Say)                 |:heavy_check_mark:    |
+|Secret_Handshake    |[Here](./1st_ev/Secret_Handshake)    |:heavy_check_mark:    |
 
 ## Second Evalution at 60%
 
-|Name                |Location                      |Status                |
-|---                 |---                           |---                   |
-|Book Store          |[Here](./2ºParte/book-store)          |:x:                   |
-|Simples Linked List |[Here](./2ºParte/simple-linked-list)  |:heavy_check_mark:    |
-
-
-
+|Name                |Location                             |Status                |
+|---                 |---                                  |---                   |
+|Book Store          |[Here](./2nd_ev/book-store)          |:x:                   |
+|Simples Linked List |[Here](./2nd_ev/simple-linked-list)  |:heavy_check_mark:    |
