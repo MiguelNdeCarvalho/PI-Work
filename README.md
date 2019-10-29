@@ -31,4 +31,4 @@ Made by:
 |Simples Linked List |[Here](./2nd_ev/simple-linked-list)  |:heavy_check_mark:    |
 |Food Chain          |[Here](./2nd_ev/food-chain)          |:x:                   |
 |Error Handling      |[Here](./2nd_ev/error-handling)      |:x:                   |
-|Linked-list         |[Here](./2nd_ev/linked-list)         |:x:                   |
+|Linked-list         |[Here](./2nd_ev/linked-list)         |:heavy_check_mark:    |
