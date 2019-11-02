@@ -32,3 +32,5 @@ Made by:
 |Food Chain          |[Here](./2nd_ev/food-chain)          |:x:                   |
 |Error Handling      |[Here](./2nd_ev/error-handling)      |:x:                   |
 |Linked-list         |[Here](./2nd_ev/linked-list)         |:heavy_check_mark:    |
+|Change              |[Here](./2nd_ev/change)              |:heavy_check_mark:    |
+|Pig Latin           |[Here](./2nd_ev/pig-latin)           |:x:                   |
