@@ -30,7 +30,7 @@ Made by:
 |Book Store          |[Here](./2nd_ev/book-store)          |:x:                   |
 |Simples Linked List |[Here](./2nd_ev/simple-linked-list)  |:heavy_check_mark:    |
 |Food Chain          |[Here](./2nd_ev/food-chain)          |:x:                   |
-|Error Handling      |[Here](./2nd_ev/error-handling)      |:x:                   |
+|Error Handling      |[Here](./2nd_ev/error-handling)      |:heavy_check_mark:    |
 |Linked-list         |[Here](./2nd_ev/linked-list)         |:heavy_check_mark:    |
 |Change              |[Here](./2nd_ev/change)              |:heavy_check_mark:    |
 |Pig Latin           |[Here](./2nd_ev/pig-latin)           |:x:                   |
