@@ -34,5 +34,5 @@ Made by:
 |Linked-list         |[Here](./2nd_ev/linked-list)         |:heavy_check_mark:    |
 |Change              |[Here](./2nd_ev/change)              |:heavy_check_mark:    |
 |Pig Latin           |[Here](./2nd_ev/pig-latin)           |:x:                   |
-|Poker               |[Here](./2nd_ev/change)              |:x                    |
+|Proverb             |[Here](./2nd_ev/proverb)              |:x                    |
 |Binary Search       |[Here](./2nd_ev/binary-search)       |:heavy_check_mark:    |                    
