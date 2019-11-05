@@ -8,13 +8,13 @@ import(
 
 func sentence(frase string)string{
 
-	frase=strings.Split("a man a plan a canal panama", " ")
+	frase1:=strings.Split(frase, " ")
 	newFrase:=""
 
 	
 	for i:=0;i<len(frase);i++{
 
-		newFrase=newFrase+translate(frase[i])
+		newFrase=newFrase+translate(frase1[i])
 
 	}
 	
@@ -25,55 +25,69 @@ func translate(word string)string{
 
 	var result string
 	
-	if (4<len(word) && strings.HasPrefix(word, "xr"))
+	if 4<len(word) && strings.HasPrefix(word, "xr"){ 
 	
-		result:=word+"ay"
+		result=word+"ay"
 	
-	}
-
-	if (4<len(word) && strings.HasPrefix(word, "yt"))
+	}else if 4<len(word) && strings.HasPrefix(word, "yt"){ 
 	
-		result :=word+"ay"
+		result=word+"ay"
 
-	}
-
-	if (4<len(word) && strings.HasPrefix(word, `[aeiou]`))
+	}else if 4<len(word) && strings.HasPrefix(word, `[aeiou]`){ 
 	
-		result :=word+"ay"
+		result=word+"ay"
 
-	}
-
-	if (4<len(word) && ~strings.HasPrefix(word, `[aeiou]`))
+	}else if 4<len(word) && !strings.HasPrefix(word, `[aeiou]`){ 
 			
-		var n int=0
-		for n!=-1{
-			result :=word+word.chatAt(n)+"ay"
-		    n++
-			if (strings.HasPrefix(word, `[aeiou]`))
-				n=-1
+		if strings.HasPrefix(word, `^[aeiou]qu`){
+
+			result=strings.TrimPrefix(word,substring(word,0,2))+substring(word,0,2)+"ay"
+		
+		}else{
+	
+			var n int
+			n=0
+			for n!=-1{
+				result=strings.TrimPrefix(word,string(word[n]))+string(word[n])+"ay"
+		    	n++
+				if strings.HasPrefix(word, `[aeiou]`){ 
+					return result
+				}
 			}
 		
 		}
 
-	}
-
-	if (4<len(word) && strings.HasPrefix(word, `[aeiou]`))
+	}else if 4<len(word) && strings.HasPrefix(word, `[aeiou]`){ 
 	
-		result :=word+"ay"
+		//result :=word+"ay"
 
 	}
-
-
 
 	return result
+}
+
+func substring(s string, start int, end int) string {
+    start_str_idx := 0
+    i := 0
+    for j := range s {
+        if i == start {
+            start_str_idx = j
+        }
+        if i == end {
+            return s[start_str_idx:j]
+        }
+        i++
+    }
+    return s[start_str_idx:]
 }
 
 
 func main()  {
 	
-	frase:=strings.Split("a man a plan a canal panama", " ")
-	fmt.Printf("%q\n", frase)
-	fmt.Printf("%d\n",len(frase))
+	frase:="a man"
+	frase=sentence(frase)
+	fmt.Printf("%s\n", frase)
+
 
 }
 
