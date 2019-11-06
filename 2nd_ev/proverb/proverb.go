@@ -1,4 +1,3 @@
-// Package proverb generates the relevant proverb
 package main
 import "fmt"
 
@@ -22,7 +21,8 @@ var full = [] string {"nail", "shoe", "horse", "rider", "message", "battle", "ki
 var four = []string{"pin", "gun", "soldier", "battle"}
 
 func main() {
-	
-
-	fmt.Print(Proverb(full))
+	var x=Proverb(full)
+	for i:=0;i<len(x);i++{
+		fmt.Print(x[i])
+	}
 }
