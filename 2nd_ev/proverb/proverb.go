@@ -1,15 +1,28 @@
-// This is a "stub" file.  It's a little start on your solution.
-// It's not a complete solution though; you have to write some code.
+// Package proverb generates the relevant proverb
+package main
+import "fmt"
 
-// Package proverb should have a package comment that summarizes what it's about.
-// https://golang.org/doc/effective_go.html#commentary
-package proverb
+// Proverb given a list of inputs, generate the relevant proverb
+func Proverb(rhyme []string) (result []string) {
+	for i := 0; i < len(rhyme); i++ {
+		if len(rhyme)-1 != i {
+			result = append(result, fmt.Sprint("For want of a ", rhyme[i], " the ", rhyme[i+1], " was lost.\n"))
+		} else {
+			result = append(result, fmt.Sprint("And all for the want of a ", rhyme[0],".\n"))
+		}
+	}
+	return 
+}
 
-// Proverb should have a comment documenting it.
-func Proverb(rhyme []string) []string {
-	// Write some code here to pass the test suite.
-	// Then remove all the stock comments.
-	// They're here to help you get started but they only clutter a finished solution.
-	// If you leave them in, reviewers may protest!
-	return []string{}
+var zero = [] string {}
+var one = [] string {"nail"}
+var two = [] string {"nail", "shoe"}
+var three = [] string {"nail", "shoe", "horse"}
+var full = [] string {"nail", "shoe", "horse", "rider", "message", "battle", "kingdom"}
+var four = []string{"pin", "gun", "soldier", "battle"}
+
+func main() {
+	
+
+	fmt.Print(Proverb(full))
 }
