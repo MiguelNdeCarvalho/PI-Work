@@ -12,9 +12,14 @@ func sentence(frase string)string{
 	newFrase:=""
 
 	
-	for i:=0;i<len(frase);i++{
+	for i:=0;i<len(frase1);i++{
 
-		newFrase=newFrase+translate(frase1[i])
+		if i==0{
+			newFrase=translate(frase1[i])
+		}else{
+
+			newFrase=newFrase+" "+translate(frase1[i])
+	    }
 
 	}
 	
@@ -25,41 +30,53 @@ func translate(word string)string{
 
 	var result string
 	
-	if 4<len(word) && strings.HasPrefix(word, "xr"){ 
+	if (len(word)>3==true) && strings.HasPrefix(word, "xr"){ 
 	
+		fmt.Println("oi1")
+
 		result=word+"ay"
 	
-	}else if 4<len(word) && strings.HasPrefix(word, "yt"){ 
+	}else if (len(word)>3==true) && strings.HasPrefix(word, "yt"){ 
 	
+		fmt.Println("oi2")
+
 		result=word+"ay"
 
-	}else if 4<len(word) && strings.HasPrefix(word, `[aeiou]`){ 
+	}else if (len(word)>3==true) && strings.HasPrefix(word, `[aeiou]`){ 
 	
+		fmt.Println("oi3")
+
 		result=word+"ay"
 
-	}else if 4<len(word) && !strings.HasPrefix(word, `[aeiou]`){ 
+	}else if (len(word)>4==true) && !strings.HasPrefix(word, `[aeiou]`){ 
 			
-		if strings.HasPrefix(word, `^[aeiou]qu`){
+		fmt.Println(word)
+		fmt.Println(strings.Contains(word, "[^aeiou]qu"))
 
-			result=strings.TrimPrefix(word,substring(word,0,2))+substring(word,0,2)+"ay"
+		if strings.Contains(word, "[^aeiou]qu"){
+
+			fmt.Println("oi4")
+
+			result=strings.TrimPrefix(word,substring(word,0,3))+substring(word,0,3)+"ay"
 		
-		}else{
+		}else if (strings.HasPrefix(word, "ch")){
 	
-			var n int
-			n=0
-			for n!=-1{
-				result=strings.TrimPrefix(word,string(word[n]))+string(word[n])+"ay"
-		    	n++
-				if strings.HasPrefix(word, `[aeiou]`){ 
-					return result
-				}
-			}
-		
+			fmt.Println("oi5")
+			result=strings.TrimPrefix(word,substring(word,0,2))+substring(word,0,2)+"ay"
+
+		}else{
+
+			fmt.Println("oi6")
+
+			result=strings.TrimPrefix(word,string(word[0]))+string(word[0])+"ay"
+
+
 		}
 
-	}else if 4<len(word) && strings.HasPrefix(word, `[aeiou]`){ 
-	
-		//result :=word+"ay"
+
+	}else{
+
+		result=word
 
 	}
 
@@ -67,7 +84,8 @@ func translate(word string)string{
 }
 
 func substring(s string, start int, end int) string {
-    start_str_idx := 0
+	
+	start_str_idx := 0
     i := 0
     for j := range s {
         if i == start {
@@ -84,9 +102,10 @@ func substring(s string, start int, end int) string {
 
 func main()  {
 	
-	frase:="a man"
+	frase:="the xray yttria chair square caaaaaaa"
 	frase=sentence(frase)
-	fmt.Printf("%s\n", frase)
+	fmt.Println("/"+frase)
+	//falta a regra 3 e 4 
 
 
 }
