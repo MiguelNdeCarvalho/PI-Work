@@ -33,6 +33,13 @@ Made by:
 |Error Handling      |[Here](./2nd_ev/error-handling)      |:heavy_check_mark:    |
 |Linked-list         |[Here](./2nd_ev/linked-list)         |:heavy_check_mark:    |
 |Change              |[Here](./2nd_ev/change)              |:heavy_check_mark:    |
-|Pig Latin           |[Here](./2nd_ev/pig-latin)           ||
+|Pig Latin           |[Here](./2nd_ev/pig-latin)           |:heavy_check_mark:    |
 |Proverb             |[Here](./2nd_ev/proverb)             |:heavy_check_mark:    |
-|Binary Search       |[Here](./2nd_ev/binary-search)       |:heavy_check_mark:    |                    
+|Binary Search       |[Here](./2nd_ev/binary-search)       |:heavy_check_mark:    |
+
+## Third Evalution at 80%
+
+|Name                |Location                             |Status                |
+|---                 |---                                  |---                   |
+|Diamond             |[Here](./3rd_ev/diamond)             |:heavy_check_mark:    |
+|Rail Fence Cipher   |[Here](./3rd_ev/rail-fence-chiper)   |:x:                   |
