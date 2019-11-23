@@ -25,6 +25,42 @@ func fenchFrase(frase string,rails int) string{
 	return result
 }
 
+func translate(frase string,rails int) string{
+
+	var result string=""
+	var n int =0
+
+	matriz:=fench(frase,rails)
+	for z:=0;z<len(matriz);z++{
+		
+		for i:=0;i<len(matriz[0]);i++{
+			
+			if matriz[z][i]!="." {
+
+				matriz[z][i]=string(frase[n])
+				n++
+
+			}
+
+		}
+	}
+
+	for z:=0;z<len(matriz[0]);z++{
+		
+		for i:=0;i<len(matriz);i++{
+			
+			if matriz[i][z]!="." {
+
+				result=result+matriz[i][z]
+
+			}
+		}
+	}
+
+	return result
+	
+}
+
 
 func fench(frase string,rails int)[][]string{
 
@@ -102,7 +138,9 @@ func fench(frase string,rails int)[][]string{
 func main()  {
 	
 
-	fmt.Println(fenchFrase("WEAREDISCOVEREDFLEEATONCE",3))
+	fmt.Println(fenchFrase("WEAREDISCOVEREDFLEEATONCE",5))
+	fmt.Println()
+	fmt.Println(translate(fenchFrase("WEAREDISCOVEREDFLEEATONCE",5),5))
 
 
 }
