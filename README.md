@@ -44,7 +44,7 @@ Made by:
 |Diamond             |[Here](./3rd_ev/diamond)             |:heavy_check_mark:    |
 |Rail Fence Cipher   |[Here](./3rd_ev/rail-fence-chiper)   |:heavy_check_mark:    |
 |Grade School        |[Here](./3rd_ev/grade-school)        |:heavy_check_mark:    |
-|Twelve Days         |[Here](./3rd_ev/twelve-days)         |::heavy_check_mark:   |
+|Twelve Days         |[Here](./3rd_ev/twelve-days)         |:heavy_check_mark:    |
 |House               |[Here](./3rd_ev/house)               |:heavy_check_mark:    |
 |Word Search         |[Here](./3rd_ev/word-search)         |:x:                   |
 |Yatch               |[Here](./3rd_ev/yacht)               |:heavy_check_mark:    |
