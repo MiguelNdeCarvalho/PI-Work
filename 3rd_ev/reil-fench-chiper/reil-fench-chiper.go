@@ -123,15 +123,7 @@ func fench(frase string,rails int)[][]string{
 
 	}
 
-/*
-	for z:=0;z<N_Linhas;z++{
-		
-		for i:=0;i<N_Colunas;i++{
-			fmt.Print(matriz[z][i])
-		}
-		fmt.Println()
-	}
-*/
+
 
 	return matriz
 }
