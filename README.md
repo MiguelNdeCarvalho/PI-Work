@@ -49,3 +49,4 @@ Made by:
 |Word Search         |[Here](./3rd_ev/word-search)         |:heavy_check_mark:    |
 |Yatch               |[Here](./3rd_ev/yacht)               |:heavy_check_mark:    |
 |Transpose           |[Here](./3rd_ev/transpose)           |:heavy_check_mark:    |
+|React               |[Here](./3rd_ev/react)               |:heavy_check_mark:    |
