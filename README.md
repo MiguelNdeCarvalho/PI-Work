@@ -57,4 +57,4 @@ Made by:
 |---                 |---                                  |---                   |
 |Dominoes            |[Here](./4th_ev/dominoes)            |:x:                   |
 |Two buckets         |[Here](./4th_ev/two-buckets)         |:x:                   |
-|Rectangles          |[Here](./4th_ev/rectangles)          |:x:                   |
+|Rectangles          |[Here](./4th_ev/rectangles)          |:heavy_check_mark:    |
