@@ -58,6 +58,6 @@ Made by:
 |Dominoes            |[Here](./4th_ev/dominoes)            |:x:                   |
 |Two buckets         |[Here](./4th_ev/two-buckets)         |:x:                   |
 |Rectangles          |[Here](./4th_ev/rectangles)          |:heavy_check_mark:    |
-|Forth               |[Here](./4th_ev/forth)               |:x:                   |
+|Forth               |[Here](./4th_ev/forth)               |:heavy_check_mark:    |
 |Bowling             |[Here](./4th_ev/bowling)             |:x:                   |
 |Robot Simulator     |[Here](./4th_ev/robot-simulator)     |:x:                   |
