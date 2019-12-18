@@ -61,5 +61,5 @@ Made by:
 |Forth               |[Here](./4th_ev/forth)               |:heavy_check_mark:    |
 |Bowling             |[Here](./4th_ev/bowling)             |:heavy_check_mark:    |
 |Robot Simulator     |[Here](./4th_ev/robot-simulator)     |:heavy_check_mark:    |
-|Circular Buffer     |[Here](./4th_ev/circular-buffer)     |:x:                   |
+|Circular Buffer     |[Here](./4th_ev/circular-buffer)     |:heavy_check_mark:    |
 |Connect             |[Here](./4th_ev/connect)             |:heavy_check_mark:    |
