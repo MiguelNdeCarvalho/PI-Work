@@ -55,7 +55,7 @@ Made by:
 
 |Name                |Location                             |Status                |
 |---                 |---                                  |---                   |
-|Dominoes            |[Here](./4th_ev/dominoes)            |:x:                   |
+|Dominoes            |[Here](./4th_ev/dominoes)            |:heavy_check_mark:    |
 |Two buckets         |[Here](./4th_ev/two-buckets)         |:x:                   |
 |Rectangles          |[Here](./4th_ev/rectangles)          |:heavy_check_mark:    |
 |Forth               |[Here](./4th_ev/forth)               |:heavy_check_mark:    |
