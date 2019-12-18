@@ -60,4 +60,4 @@ Made by:
 |Rectangles          |[Here](./4th_ev/rectangles)          |:heavy_check_mark:    |
 |Forth               |[Here](./4th_ev/forth)               |:heavy_check_mark:    |
 |Bowling             |[Here](./4th_ev/bowling)             |:heavy_check_mark:    |
-|Robot Simulator     |[Here](./4th_ev/robot-simulator)     |:x:                   |
+|Robot Simulator     |[Here](./4th_ev/robot-simulator)     |:heavy_check_mark:    |
