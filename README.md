@@ -63,3 +63,4 @@ Made by:
 |Robot Simulator     |[Here](./4th_ev/robot-simulator)     |:heavy_check_mark:    |
 |Circular Buffer     |[Here](./4th_ev/circular-buffer)     |:heavy_check_mark:    |
 |Connect             |[Here](./4th_ev/connect)             |:heavy_check_mark:    |
+|Diffie-Hellman      |[Here](./4th_ev/diffie-hellman)      |:heavy_check_mark:    |
